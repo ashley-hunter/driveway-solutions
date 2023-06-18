@@ -15,7 +15,7 @@ export function NavbarLink({ href, children }: NavbarLinkProps) {
       <Link
         href={href}
         className={clsx(
-          'md:hover:text-brand-700 block rounded py-2 pl-3 pr-4 text-gray-700 md:border-0 md:p-0 md:hover:bg-transparent',
+          'md:hover:text-brand-700 block rounded py-2 pl-3 pr-4 text-sm text-gray-700 md:border-0 md:p-0 md:hover:bg-transparent',
           {
             'text-brand-700': router.pathname === href,
           },

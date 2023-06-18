@@ -1,6 +1,4 @@
 import NavbarLink from '../navbar-link/navbar-link';
-
-/* eslint-disable-next-line */
 export interface NavbarProps {}
 
 export function Navbar() {
@@ -8,7 +6,7 @@ export function Navbar() {
     <nav className="fixed top-0 z-20 w-full rounded border-b border-gray-100 bg-white/80 px-2 py-2.5 backdrop-blur-md sm:px-4">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <a className="flex items-center">
-          <img src="/logo.svg" className="mr-3 h-6 sm:h-9" alt="Driveway Solutions NI" />
+          <img src="/logo.svg" className="mr-3 h-6 sm:h-9" alt="Driveway Solutions NI" />{' '}
           <div className="font-inter flex flex-col self-center whitespace-nowrap">
             <span className="text-base font-semibold text-gray-900">Driveway Solutions NI</span>
             <span className="text-xs font-semibold text-gray-500">Blacktop Specialists</span>
